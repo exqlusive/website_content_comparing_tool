@@ -1,0 +1,16 @@
+{
+  "name": "toppy_webpage_status_checker",
+  "version": "1.0.0",
+  "description": "An application to check whether or not production has the right content. If there's a mismatch, create a Google Chat notification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wesley Hiraki (Toppy.nl)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^14.2.0"
+  }
+}
